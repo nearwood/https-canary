@@ -1,0 +1,11 @@
+button {
+  margin: 1% auto;
+  padding: 1px;
+  text-align: center;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.hash {
+  font-family: monospace;
+}

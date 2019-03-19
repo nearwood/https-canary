@@ -1,0 +1,27 @@
+{
+  "description": "Attempts to verify HTTPS certificate fingerprints, to determine if your connection has been MITM'd.",
+  "manifest_version": 2,
+  "name": "HTTPS Canary",
+  "version": "1.0b",
+  "homepage_url": "https://github.com/nearwood/https-canary",
+  "icons": {
+    "48": "icons/canary.png"
+  },
+  "permissions": [
+    "https://*/",
+    "activeTab",
+    "tabs",
+    "webRequest",
+    "webRequestBlocking"
+  ],
+  "page_action": {
+    "browser_style": true,
+    "default_icon": "button/canary.png",
+    "default_title": "HTTPS Fingerprint",
+    "default_popup": "popup/popup.html",
+    "show_matches": ["https://*/"]
+  },
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
