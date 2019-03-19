@@ -11,8 +11,8 @@ Not to be confused with: https://tlscanary.mozilla.org/
 
 ## TODO
 
-[x] - When cname matches tab URL use that sha1
-[x] - Click verify to request from GRC
-[x] - Show green thing if good, red thing if bad
-[ ] - It's not pretty
-[ ] - The code is not pretty
+- [x] When cname matches tab URL use that sha1
+- [x] Click verify to request from GRC
+- [x] Show green thing if good, red thing if bad
+- [ ] It's not pretty
+- [ ] The code is not pretty
